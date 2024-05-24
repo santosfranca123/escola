@@ -1,142 +1,134 @@
-/*Reset*/
-body {
-  margin: 0;
-}
-
-/*Geral*/
+/* geral */
 html {
-  font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
-h1,h2,h3,h4,h5,span {
-  margin: 0;
-  color: #002218;
+/* reset */
+body {
+	margin: 0;
 }
 
-p{
-  color: #000000;
+h1, h2, h3, h4, h5, p, span {
+	margin: 0;
+	color: #666;
 }
 
 .container {
-  max-width: 1920px;
-  width: 100%;
+	max-width: 1920px;
+	width: 100%;
 }
 
-/*Header*/
+/* header */
 header {
-  position:relative;
-  top:0;
-  height: auto;
-  width: 100%;
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
 }
 
-/*NavBar*/
-nav {
-  position: fixed;
-  top: 0;
-  height: 100px;
-  width: 100%;
-  z-index: 1;
-  background-color: #ffff;
-  border-bottom: 1px solid  #ffff;
-}
+/* navbar */
+nav { 
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-color: #FFF;
+	border-bottom: 1px solid #CCC;
+ }
 
-nav: after {
-  clear: both;
-  content: "";
-  display:block;
-  height: 50px;
-  width: 50px;
-  background-color: #dab36f;
-}
+ nav:after {
+ 	clear: both;
+ 	content: "";
+ 	display: block;
+ }
 
-.nav-container {
-  max-width: 1200px;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-}
+ .nav-container {
+ 	max-width: 1200px;
+ 	position: relative;
+ 	margin-right: auto;
+ 	margin-left: auto; 	
+ }
 
-#logo {
-  width: 100px;
-  height: 100px;
-  margin-top: 6;
-}
+ #logo {
+ 	width: 67px;
+ 	height: 59px;
+ 	margin-top: 18px;
+ }
 
-.nav-container ul {
-  float: right;
-  height: 100px;
-  line-height: 100px;
-  margin: 0;
-}
+ .nav-container ul {
+ 	float: right;
+ 	height: 100px;
+ 	line-height: 100px;
+ 	margin: 0;
+ }
 
-.nav-container li {
-  list-style: none;
-  float: left;
-  margin: 0 15px;
-}
+ .nav-container li {
+ 	list-style: none;
+ 	float: left;
+ 	margin: 0 15px;
+ }
 
-.nav-container li a {
-  text-decoration: none;
-  color: #0c2f40;
-  transition: .5s;
-}
+ .nav-container li a {
+ 	text-decoration: none;
+ 	color: #666;
+ 	transition: .5s;
+ }
 
-.nav-container li a: hover {
-  color:  #008080;
-}
+ .nav-container li a:hover {
+ 	color: #3381F3;
+ }
 
-/*banner*/
-#main-banner {
-  background-color: red;
-  background: url(../img/banner.m.png.jpg )no-repeat;
-  background-size: cover;
-  background-position: 0 55%;
-  position: relative;
-  margin-top: 100px;
-}
+/* banner  */
+ #main-banner {
+ 	background-color: red;
+ 	background: url('../img/banner.jpg') no-repeat;
+ 	background-size: cover;
+ 	background-position: 0 55%;
+ 	position: relative;
+ 	margin-top: 100px;
+ }
 
+ #search-form {
+ 	position: relative;
+ 	width: 80%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 15em;
+ 	padding-bottom: 15em;
+ 	text-align: center;
+ }
 
-#search-form {
-  position: relative;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15em;
-  padding-bottom: 15em;
-  text-align: center;
-}
+ #search-form h1 {
+ 	font-size: 40px;
+ }
 
-#search-form h1 {
-  font-size: 40px;
-}
-  
-#search-form p {
-  margin-top: 30px;
-  margin-bottom: 60px;
-  font-size: 18px;
-  font-weight: 300px;
-}
+ #search-form p {
+ 	margin-top: 30px;
+ 	margin-bottom: 60px;
+ 	font-size: 18px;
+ 	font-weight: 300px;
+ }
 
-/*formulario*/
-#search-form input, 
-#search-form select {
-  background-color: #ffff;
-  border-radius: 5px;
-  border-color: transparent;
-  padding: 10px 20px;
-  font-size: 18px;
-  margin: 0 10px;
-}
+/* Formulario */
+ #search-form input, #search-form select {
+ 	background-color: #FFF;
+ 	border-radius: 5px;
+ 	border-color: transparent;
+ 	padding: 10px 20px;
+ 	font-size: 18px;
+ 	margin: 0 10px;
+ }
 
-#search-form input[type= submit] {
-  background-color: #0e4d5b;
-  text-transform: uppercase;
-  color: #FFFF;
-  cursor: pointer;
-  transition: 0.5;
-}
+#search-form input[type=submit] {
+ 	background-color: #3381f3;
+ 	text-transform: uppercase;
+ 	color: #FFF;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+ }
 
-#search-form input[type= submit]: hover {
-  background-color: #0e4d5b;
-}
+ #search-form input[type=submit]:hover {
+ 	background-color: #2B79EB;
+ 	/*background-color: #191970;*/
+ }
