@@ -71,7 +71,7 @@ nav {
 
  .nav-container li a {
  	text-decoration: none;
- 	color: #666;
+ 	color: #0e0d0d;
  	transition: .5s;
  }
 
@@ -82,7 +82,7 @@ nav {
 /* banner  */
  #main-banner {
  	background-color: red;
- 	background: url('../img/banner.jpg') no-repeat;
+ 	background: url('../img/banner.m.png.jpg') no-repeat;
  	background-size: cover;
  	background-position: 0 55%;
  	position: relative;
@@ -121,7 +121,7 @@ nav {
  }
 
 #search-form input[type=submit] {
- 	background-color: #3381f3;
+ 	background-color: #3381F3;
  	text-transform: uppercase;
  	color: #FFF;
  	cursor: pointer;
