@@ -33,8 +33,8 @@ nav {
 	height: 100px;
 	width: 100%;
 	z-index: 1;
-	background-color: #FFF;
-	border-bottom: 1px solid #CCC;
+	background-color: #be7c1800;
+	border-bottom: 1px solid #cccccc05;
  }
 
  nav:after {
